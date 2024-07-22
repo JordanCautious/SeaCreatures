@@ -12,6 +12,8 @@
 		76F78EE02C4EADF700B64834 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F78EDF2C4EADF700B64834 /* ContentView.swift */; };
 		76F78EE22C4EADF800B64834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F78EE12C4EADF800B64834 /* Assets.xcassets */; };
 		76F78EE52C4EADF800B64834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F78EE42C4EADF800B64834 /* Preview Assets.xcassets */; };
+		76F78EED2C4EB0AB00B64834 /* SeaCreature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F78EEC2C4EB0AB00B64834 /* SeaCreature.swift */; };
+		76F78EEF2C4EB39700B64834 /* SeaCreatureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F78EEE2C4EB39700B64834 /* SeaCreatureDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		76F78EE12C4EADF800B64834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F78EE42C4EADF800B64834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76F78EE62C4EADF800B64834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F78EEC2C4EB0AB00B64834 /* SeaCreature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreature.swift; sourceTree = "<group>"; };
+		76F78EEE2C4EB39700B64834 /* SeaCreatureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreatureDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		76F78ED82C4EADF700B64834 /* SeaCreatures */ = {
 			isa = PBXGroup;
 			children = (
+				76F78EEC2C4EB0AB00B64834 /* SeaCreature.swift */,
+				76F78EEE2C4EB39700B64834 /* SeaCreatureDetailView.swift */,
 				76F78EDD2C4EADF700B64834 /* SeaCreaturesApp.swift */,
 				76F78EDF2C4EADF700B64834 /* ContentView.swift */,
 				76F78EE12C4EADF800B64834 /* Assets.xcassets */,
@@ -154,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F78EEF2C4EB39700B64834 /* SeaCreatureDetailView.swift in Sources */,
 				76F78EE02C4EADF700B64834 /* ContentView.swift in Sources */,
+				76F78EED2C4EB0AB00B64834 /* SeaCreature.swift in Sources */,
 				76F78EDE2C4EADF700B64834 /* SeaCreaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
